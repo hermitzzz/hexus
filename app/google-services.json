@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161674123430",
+    "project_id": "hexus-by-kotlin",
+    "storage_bucket": "hexus-by-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161674123430:android:5a8a91f1d71c5c7ee5fc67",
+        "android_client_info": {
+          "package_name": "com.example.hexusbykotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161674123430-g112fvqdemmmds0picbamha1ec6qhku8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmGmqMw9LMR_86viYUkv7jrsx44srfq6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161674123430-g112fvqdemmmds0picbamha1ec6qhku8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hexusbykotlin.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_home" />
+
+    <fragment
+        android:id="@+id/nav_show_people"
+        android:name="com.example.hexusbykotlin.ui.gallery.GalleryFragment"
+        android:label="Show people"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_friend_request"
+        android:name="com.example.hexusbykotlin.ui.slideshow.SlideshowFragment"
+        android:label="Friend Request"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sign_out"
+        android:name="com.example.hexusbykotlin.ui.slideshow.SlideshowFragment"
+        android:label="Sign out"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
